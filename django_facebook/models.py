@@ -33,8 +33,8 @@ class BaseFacebookProfileModel(models.Model):
     facebook_profile_url = models.TextField(blank=True, null=True)
     website_url = models.TextField(blank=True, null=True)
     blog_url = models.TextField(blank=True, null=True)
-    date_of_birth = models.DateField(blank=True, null=True)
-    gender = models.CharField(max_length=1, choices=(('m', 'Male'), ('f', 'Female')), blank=True, null=True)
+#    date_of_birth = models.DateField(blank=True, null=True)
+#    gender = models.CharField(max_length=1, choices=(('m', 'Male'), ('f', 'Female')), blank=True, null=True)
     raw_data = models.TextField(blank=True, null=True)
 
     def __unicode__(self):
